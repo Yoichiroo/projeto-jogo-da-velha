@@ -1,0 +1,85 @@
+* {
+    margin: auto;
+    padding: 10px;
+}
+
+button {
+    display: block;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:hover {
+    width: 120px;
+    font-weight: bold;
+}
+
+div#divJogo {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+div.posJogo {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+div#pos1 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+div#pos2 {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+div#pos3 {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+div#pos4 {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+div#pos5 {
+    border: 1px solid black;
+}
+
+div#pos6 {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+div#pos7 {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+div#pos8 {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+div#pos9 {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}

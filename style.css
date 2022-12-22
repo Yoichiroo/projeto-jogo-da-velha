@@ -2,36 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
-    margin: auto;
-    padding: 10px;
+
     font-family: "Poppins";
 }
+
 h1 {
-    font-variant: small-caps;
-    font-size: 3em;
     text-align: center;
-    padding: 20px;
-}
-
-button {
-    display: block;
-    border: none;
-    background-color: black;
-    color: white;
-    width: 100px;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: 0.2s ease;
-}
-
-button:hover {
-    width: 120px;
-    font-weight: bold;
 }
 
 p {
     font-size: 1.2em;
     text-align: center;
+}
+
+button {
+    display: block;
+    background-color: black;
+    color: white;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 div#divJogo {
@@ -40,6 +30,7 @@ div#divJogo {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
+    margin: auto;
 }
 
 div.posJogo {
@@ -48,6 +39,9 @@ div.posJogo {
     height: 50px;
     margin: 0px;
     padding: 0px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
     cursor: pointer;
 }
 

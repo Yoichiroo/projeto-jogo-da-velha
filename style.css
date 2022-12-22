@@ -16,12 +16,20 @@ p {
 }
 
 button {
+    width: 100px;
     display: block;
     background-color: black;
     color: white;
     margin: 10px auto;
     padding: 5px;
     border-radius: 20px;
+    transition: 0.2s ease;
+}
+
+button:hover {
+    width: 120px;
+    font-size: 1em;
+    cursor: pointer;
 }
 
 div#divJogo {
